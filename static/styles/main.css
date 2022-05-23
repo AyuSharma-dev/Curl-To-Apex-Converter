@@ -1,0 +1,153 @@
+pre textarea {
+    color: #161412;
+    text-align: initial;
+    display: block;
+    margin: auto;
+    width: 90%;
+    border: 2px black solid;
+    background: white;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 10px;
+    max-height: 500px;
+    overflow: auto;
+}
+
+pre {
+    display: none;
+    border: 0px !important;
+}
+
+/* navigation Bar style */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #01013a;
+    font-family: monospace;
+    font-size: 20px;
+    margin-top: -8px;
+    width: 101%;
+    margin-left: -10px;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+/* navigation style end */
+
+body {
+    background-color: #264766;
+}
+
+.title {
+    color: white;
+    background: #87cefaad;
+    width: 105%;
+    text-align: center;
+    /* margin: auto; */
+    margin-top: 30px;
+    margin-left: -20px;
+    height: 80px;
+    font-size: 60px;
+    font-family: monospace;
+    border-radius: 15px;
+    font-weight: 700;
+    border: 3px solid white;
+}
+
+.form {
+    text-align: center;
+    margin-top: 65px;
+    border-radius: 15px;
+    background: #87cefaad;
+    width: 105%;
+    /* margin: auto; */
+    margin-top: 55px;
+    margin-left:-20px;
+    border: 3px solid white;
+}
+
+.textAreaLabel{
+    font-family: monospace;
+    font-size: 40px;
+    color: white;
+}
+
+.textArea{
+    color: #161412;
+    text-align: initial;
+    display: block;
+    margin: auto;
+    width: 90%;
+    border: 2px black solid;
+    background: white;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.submitButton{
+    margin-top: 40px;
+    width: 270px;
+    height: 46px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    font-size: 25px;
+    color: white;
+    background: #14145e;
+}
+
+.copyButton{
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 13px;
+    color: #ffffff;
+    border-radius: 7px;
+    background: #14145e;
+    float: left;
+    margin-left: 5%;
+
+}
+
+/* Author Section */
+.author{
+    width: 105%;
+    margin-left: -20px;
+    background-color: #68a3cb;
+    border: 3px white solid;
+    height: 300px;
+    margin-top: 60px;
+}
+.author p{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: system-ui;
+    margin-left: 30px;
+}
+.author img{
+    margin-left: 30px;
+    border-radius: 50%;
+    height:150px;
+}
+
+
